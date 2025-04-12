@@ -191,7 +191,8 @@ header {
 	position: relative;
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .box {
@@ -472,6 +473,16 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
+.mission__img-1{
+  object-fit: cover;
+}
+
+
+
+.mission__img-2{
+  object-fit: cover;
+}
+
 .mission__item a {
 	font-family: Inter;
 	font-weight: 700;
@@ -604,11 +615,12 @@ input {
 	padding:60px 0 150px 0;
 }
 
-.mission img{
-  width: 70%;
-  margin: 10px auto;
-  border-radius: 30px;
+.mission__img-1{
+  width: 29%;
+}
 
+.mission__img-2{
+  width: 70%;
 }
 
 .mission__content {
@@ -635,11 +647,11 @@ input {
 
 .box-2 {
 	top: 0;
-	left: 12%;
+	left: -2%;
 }
 
 .box-3 {
-	right: 20%;
+	right: 2%;
 	bottom: -30px;
 }
 
@@ -679,11 +691,21 @@ form {
 
 .detail__list {
 	justify-content: center;
-  gap: 60px;
+  width: 98%;
+  gap: 30px;
+}
+
+.project__list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 }
 
-@media screen and (max-width: 750px) {
+
+
+@media screen and (max-width: 860px) {
 	header {
 		padding: 30px 0;
 	}
@@ -884,11 +906,6 @@ form {
 	padding:60px 0 120px 0;
 }
 
-.mission img{
-  width: 90%;
-  margin: 10px auto;
-
-}
 
 .mission__content {
 	flex-direction: column;
@@ -915,14 +932,28 @@ form {
 	font-size: 2em;
 }
 
+.mission__img-1{
+  width: 30%;
+  height: 300px;
+}
+
+.mission__img-2{
+  width: 69%;
+  height: 300px;
+}
+
 .box-2 {
 	top: 5%;
-	left: 0;
+	left: -2%;
+  width: 30px;
+  height: 100px;
 }
 
 .box-3 {
-	right: 8%;
-	bottom: -30px;
+	right: 7%;
+	bottom: -20px;
+  width: 100px;
+  height: 30px;
 }
 
 
@@ -948,6 +979,10 @@ input {
 
 .detail {
 	padding: 80px 0 50px 0;
+}
+
+.detail__item{
+  width: 98%;
 }
 .etail-imgs {
 	display: flex;
@@ -1117,6 +1152,23 @@ input {
 }
 
 
+.mission-img{
+  flex-direction: column;
+}
+
+
+.mission__img-1{
+  height: 300px;
+  margin-bottom: 10px;
+  object-position: center -70px;
+
+}
+
+.mission__img-2{
+  width: 70%;
+  height: 250px;
+}
+
 .box-2 {
 	top: 0;
 	left: -3%;
@@ -1124,7 +1176,7 @@ input {
 
 .box-3 {
 	right: 2%;
-	bottom: -30px;
+	bottom: -20px;
 }
 
 
