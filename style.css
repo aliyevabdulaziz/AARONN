@@ -749,7 +749,7 @@ form {
 
 	.closer__text {
 		font-size: 1.6em;
-		margin-bottom: 70px;
+		margin-bottom: 50px;
 	}
 
 	.closer-img {
@@ -1034,6 +1034,11 @@ input {
 	.closer__title {
 		font-size: 3.6em;
 		margin-bottom: 20px;
+	}
+
+  	.closer__text {
+		font-size: 1.6em;
+		margin-bottom: 30px;
 	}
 
 
