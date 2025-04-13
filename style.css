@@ -63,7 +63,7 @@ body {
 	font-size: 62.5%;
 	color: var(--white-color);
 	background: rgb(30, 30, 30);
-	background: linear-gradient(90deg, rgb(12, 12, 12) 0%, rgb(34, 33, 33), rgb(3, 3, 3), rgb(12, 12, 12), rgb(30, 30, 30));
+	background: linear-gradient(90deg, rgb(12, 12, 12) 0%, rgb(34, 33, 33), rgb(3, 3, 3), rgb(12, 12, 12), rgb(30, 30, 30),rgb(60, 59, 59));
 	font-family: 'Syne', Courier, monospace;
 	font-weight: 700;
 }
