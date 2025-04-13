@@ -1006,8 +1006,24 @@ input {
 	}
 
 	.header__list {
-    display: none;
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 80px;
+		right: 20px;
+		background-color: var(--white-color);
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		z-index: 100;
+		gap: 15px;
 	}
+
+	.header__list.active {
+		display: flex;
+	}
+
+
   .hamburger-btn{
     display: inline-block;
   }
